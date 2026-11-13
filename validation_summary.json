@@ -1,0 +1,66 @@
+{
+  "source": "https://data.cityofchicago.org/Community-Economic-Development/Business-Licenses/r5kz-chrr",
+  "extracted_at_utc": "2026-11-13T09:14:37.875307+00:00",
+  "source_rows_updated_at_unix": 1794480880,
+  "issue_date_start": "2024-01-01",
+  "issue_date_end": "2025-12-31",
+  "records": 64377,
+  "unique_license_ids": 64377,
+  "unique_id_field_values": 64374,
+  "duplicate_id_field_rows": 3,
+  "years": {
+    "2024": 31441,
+    "2025": 32936
+  },
+  "months": {
+    "2024-01": 2672,
+    "2024-02": 2618,
+    "2024-03": 2403,
+    "2024-04": 2699,
+    "2024-05": 2796,
+    "2024-06": 2549,
+    "2024-07": 2794,
+    "2024-08": 2689,
+    "2024-09": 2827,
+    "2024-10": 2778,
+    "2024-11": 2321,
+    "2024-12": 2295,
+    "2025-01": 2443,
+    "2025-02": 2722,
+    "2025-03": 2839,
+    "2025-04": 2794,
+    "2025-05": 2989,
+    "2025-06": 2875,
+    "2025-07": 3100,
+    "2025-08": 2657,
+    "2025-09": 2815,
+    "2025-10": 2897,
+    "2025-11": 2274,
+    "2025-12": 2531
+  },
+  "application_types": {
+    "RENEW": 49235,
+    "ISSUE": 14026,
+    "C_LOC": 939,
+    "C_SBA": 87,
+    "C_EXPA": 76,
+    "C_CAPA": 14
+  },
+  "license_statuses": {
+    "AAI": 61624,
+    "AAC": 2680,
+    "REV": 73
+  },
+  "missing_fields": {
+    "application_created_date": 49323,
+    "community_area_name": 5679,
+    "ward": 5606
+  },
+  "application_to_issue_days": {
+    "nonmissing": 15054,
+    "negative": 0,
+    "max": 4118
+  },
+  "independent_application_type_counts_match": true,
+  "curated_csv_sha256": "1227697add18076463e3c7628fb9ea43d75d6957ad3bb33744602d3a214a81b2"
+}
