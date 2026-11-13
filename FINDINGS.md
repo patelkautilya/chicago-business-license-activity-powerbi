@@ -1,4 +1,4 @@
-# Findings and limits — draft
+# Findings and limits
 
 ## Validation
 
@@ -9,6 +9,8 @@ The fixed `date_issued` window has **64,377 records**, matching the official Soc
 1. **Most records are renewals.** `RENEW` accounts for 49,235 records (76.48%); `ISSUE` accounts for 14,026 (21.79%). The remaining 1,116 are change applications (`C_LOC`, `C_SBA`, `C_EXPA`, `C_CAPA`). The City's field definitions distinguish initial issuance from subsequent renewals.
 2. **Total records rose while initial issues were nearly flat.** All types combined increased from 31,441 in 2024 to 32,936 in 2025 (**4.75%**). `ISSUE` moved from 7,036 to 6,990 (**−0.65%**); `RENEW` rose from 23,837 to 25,398 (**6.55%**). These are counts by issue date, not business formation or survival rates.
 3. **Geographic coverage is incomplete.** The community-area name is missing on 5,679 records (8.82%); ward is missing on 5,606. Any map or community comparison must show the missing category and must not be framed as an exposure-adjusted rate.
+4. **The largest license class is Limited Business License.** It has 18,638 issued records in the report window, followed by Retail Food Establishment (12,012) and Regulated Business License (8,920). These are license-class records, not unique firms.
+5. **The missing community-area bucket leads the ranked view.** Among named areas, Near North Side has 5,172 records, followed by Loop (4,418) and Near West Side (3,571). The rankings count licenses and cannot establish relative business intensity without a denominator.
 
 ## Interpretation limits
 
